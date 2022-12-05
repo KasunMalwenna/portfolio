@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Visualization on Kasun Malwenna</title>
+    <link>https://KasunMalwenna.github.io/portfolio/tags/data-visualization/</link>
+    <description>Recent content in Data Visualization on Kasun Malwenna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Dec 2022 10:58:08 -0400</lastBuildDate><atom:link href="https://KasunMalwenna.github.io/portfolio/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Password Strength Classifier: Is it really safe?</title>
+      <link>https://KasunMalwenna.github.io/portfolio/post/project-2/</link>
+      <pubDate>Sun, 04 Dec 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/post/project-2/</guid>
+      <description>Password strength measures how well a password can withstand being guessed or hacked. External attacks can come in the form of password cracking or brute-force attacks, which aim to gain unauthorized access to a computer system or network.
+The strength of a password is typically measured by its complexity, length, and unpredictability. Unfortunately, cybercrimes and data breaches have been increasing, and a big reason for this is that passwords are often compromised and weak.</description>
+    </item>
+    
+    <item>
+      <title>Flight Fare Prediction: Let&#39;s Find the Best Rates</title>
+      <link>https://KasunMalwenna.github.io/portfolio/post/project-1/</link>
+      <pubDate>Sun, 20 Nov 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/post/project-1/</guid>
+      <description>The recent pandemic has caused many limitations that have led to inflation, and, as a result, air ticket prices have increased dramatically over the last few years. This has made many airlines unprofitable and insolvent, which has then caused significant travel disruptions and 2.3 million job losses in aviation.
+Even before the pandemic, air ticket prices had been erratic. This is because air travel is the most expensive and only worldwide rapid transportation method that connects people and business.</description>
+    </item>
+    
+  </channel>
+</rss>

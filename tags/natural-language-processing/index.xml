@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Natural Language Processing on Kasun Malwenna</title>
+    <link>https://KasunMalwenna.github.io/portfolio/tags/natural-language-processing/</link>
+    <description>Recent content in Natural Language Processing on Kasun Malwenna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Dec 2022 10:58:08 -0400</lastBuildDate><atom:link href="https://KasunMalwenna.github.io/portfolio/tags/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Password Strength Classifier: Is it really safe?</title>
+      <link>https://KasunMalwenna.github.io/portfolio/post/project-2/</link>
+      <pubDate>Sun, 04 Dec 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/post/project-2/</guid>
+      <description>Password strength measures how well a password can withstand being guessed or hacked. External attacks can come in the form of password cracking or brute-force attacks, which aim to gain unauthorized access to a computer system or network.
+The strength of a password is typically measured by its complexity, length, and unpredictability. Unfortunately, cybercrimes and data breaches have been increasing, and a big reason for this is that passwords are often compromised and weak.</description>
+    </item>
+    
+  </channel>
+</rss>
