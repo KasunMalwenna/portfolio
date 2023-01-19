@@ -6,7 +6,88 @@
     <description>Recent content in Tags on Kasun Malwenna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Dec 2022 10:58:08 -0400</lastBuildDate><atom:link href="https://KasunMalwenna.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Jan 2023 10:58:08 -0400</lastBuildDate><atom:link href="https://KasunMalwenna.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://KasunMalwenna.github.io/portfolio/tags/ai/</link>
+      <pubDate>Fri, 13 Jan 2023 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CNN</title>
+      <link>https://KasunMalwenna.github.io/portfolio/tags/cnn/</link>
+      <pubDate>Fri, 13 Jan 2023 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/tags/cnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>https://KasunMalwenna.github.io/portfolio/tags/computer-vision/</link>
+      <pubDate>Fri, 13 Jan 2023 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Visualization</title>
+      <link>https://KasunMalwenna.github.io/portfolio/tags/data-visualization/</link>
+      <pubDate>Fri, 13 Jan 2023 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Recognition</title>
+      <link>https://KasunMalwenna.github.io/portfolio/tags/image-recognition/</link>
+      <pubDate>Fri, 13 Jan 2023 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/tags/image-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keras</title>
+      <link>https://KasunMalwenna.github.io/portfolio/tags/keras/</link>
+      <pubDate>Fri, 13 Jan 2023 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/tags/keras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi Class</title>
+      <link>https://KasunMalwenna.github.io/portfolio/tags/multi-class/</link>
+      <pubDate>Fri, 13 Jan 2023 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/tags/multi-class/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://KasunMalwenna.github.io/portfolio/tags/python/</link>
+      <pubDate>Fri, 13 Jan 2023 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensorflow</title>
+      <link>https://KasunMalwenna.github.io/portfolio/tags/tensorflow/</link>
+      <pubDate>Fri, 13 Jan 2023 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Classification</title>
       <link>https://KasunMalwenna.github.io/portfolio/tags/classification/</link>
@@ -17,38 +98,11 @@
     </item>
     
     <item>
-      <title>Data Visualization</title>
-      <link>https://KasunMalwenna.github.io/portfolio/tags/data-visualization/</link>
-      <pubDate>Sun, 04 Dec 2022 10:58:08 -0400</pubDate>
-      
-      <guid>https://KasunMalwenna.github.io/portfolio/tags/data-visualization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi Class</title>
-      <link>https://KasunMalwenna.github.io/portfolio/tags/multi-class/</link>
-      <pubDate>Sun, 04 Dec 2022 10:58:08 -0400</pubDate>
-      
-      <guid>https://KasunMalwenna.github.io/portfolio/tags/multi-class/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Natural Language Processing</title>
       <link>https://KasunMalwenna.github.io/portfolio/tags/natural-language-processing/</link>
       <pubDate>Sun, 04 Dec 2022 10:58:08 -0400</pubDate>
       
       <guid>https://KasunMalwenna.github.io/portfolio/tags/natural-language-processing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://KasunMalwenna.github.io/portfolio/tags/python/</link>
-      <pubDate>Sun, 04 Dec 2022 10:58:08 -0400</pubDate>
-      
-      <guid>https://KasunMalwenna.github.io/portfolio/tags/python/</guid>
       <description></description>
     </item>
     
@@ -98,15 +152,6 @@
     </item>
     
     <item>
-      <title>Keras</title>
-      <link>https://KasunMalwenna.github.io/portfolio/tags/keras/</link>
-      <pubDate>Sun, 20 Nov 2022 10:58:08 -0400</pubDate>
-      
-      <guid>https://KasunMalwenna.github.io/portfolio/tags/keras/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Neural Network</title>
       <link>https://KasunMalwenna.github.io/portfolio/tags/neural-network/</link>
       <pubDate>Sun, 20 Nov 2022 10:58:08 -0400</pubDate>
@@ -121,15 +166,6 @@
       <pubDate>Sun, 20 Nov 2022 10:58:08 -0400</pubDate>
       
       <guid>https://KasunMalwenna.github.io/portfolio/tags/regression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tensorflow</title>
-      <link>https://KasunMalwenna.github.io/portfolio/tags/tensorflow/</link>
-      <pubDate>Sun, 20 Nov 2022 10:58:08 -0400</pubDate>
-      
-      <guid>https://KasunMalwenna.github.io/portfolio/tags/tensorflow/</guid>
       <description></description>
     </item>
     

@@ -6,14 +6,25 @@
     <description>Recent content in Keras on Kasun Malwenna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2022 10:58:08 -0400</lastBuildDate><atom:link href="https://KasunMalwenna.github.io/portfolio/tags/keras/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Jan 2023 10:58:08 -0400</lastBuildDate><atom:link href="https://KasunMalwenna.github.io/portfolio/tags/keras/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recognize Trading Cards With AI: Industry Project for ALT</title>
+      <link>https://KasunMalwenna.github.io/portfolio/post/project-3/</link>
+      <pubDate>Fri, 13 Jan 2023 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/post/project-3/</guid>
+      <description>Visit the Project GitHub repository for code and more information.
+The sports trading card industry refers to the market for trading cards featuring professional athletes and teams. These cards can be collected, traded, and sold by fans, and they can also be used to play various games and simulations.The popularity of sports trading cards saw a resurgence following the COVID-19 pandemic, as many people turned to collecting as a hobby while stuck at home.</description>
+    </item>
+    
     <item>
       <title>Flight Fare Prediction: Let&#39;s Find the Best Rates</title>
       <link>https://KasunMalwenna.github.io/portfolio/post/project-1/</link>
       <pubDate>Sun, 20 Nov 2022 10:58:08 -0400</pubDate>
       
       <guid>https://KasunMalwenna.github.io/portfolio/post/project-1/</guid>
-      <description>The recent pandemic has caused many limitations that have led to inflation, and, as a result, air ticket prices have increased dramatically over the last few years. This has made many airlines unprofitable and insolvent, which has then caused significant travel disruptions and 2.3 million job losses in aviation.
+      <description>Visit the Project GitHub repository for code and more information.
+The recent pandemic has caused many limitations that have led to inflation, and, as a result, air ticket prices have increased dramatically over the last few years. This has made many airlines unprofitable and insolvent, which has then caused significant travel disruptions and 2.3 million job losses in aviation.
 Even before the pandemic, air ticket prices had been erratic. This is because air travel is the most expensive and only worldwide rapid transportation method that connects people and business.</description>
     </item>
     

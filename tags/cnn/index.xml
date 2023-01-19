@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CNN on Kasun Malwenna</title>
+    <link>https://KasunMalwenna.github.io/portfolio/tags/cnn/</link>
+    <description>Recent content in CNN on Kasun Malwenna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Jan 2023 10:58:08 -0400</lastBuildDate><atom:link href="https://KasunMalwenna.github.io/portfolio/tags/cnn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recognize Trading Cards With AI: Industry Project for ALT</title>
+      <link>https://KasunMalwenna.github.io/portfolio/post/project-3/</link>
+      <pubDate>Fri, 13 Jan 2023 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/post/project-3/</guid>
+      <description>Visit the Project GitHub repository for code and more information.
+The sports trading card industry refers to the market for trading cards featuring professional athletes and teams. These cards can be collected, traded, and sold by fans, and they can also be used to play various games and simulations.The popularity of sports trading cards saw a resurgence following the COVID-19 pandemic, as many people turned to collecting as a hobby while stuck at home.</description>
+    </item>
+    
+  </channel>
+</rss>

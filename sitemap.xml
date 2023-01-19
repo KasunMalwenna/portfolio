@@ -2,22 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://KasunMalwenna.github.io/portfolio/tags/classification/</loc>
-    <lastmod>2022-12-04T10:58:08-04:00</lastmod>
+    <loc>https://KasunMalwenna.github.io/portfolio/tags/ai/</loc>
+    <lastmod>2023-01-13T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://KasunMalwenna.github.io/portfolio/tags/cnn/</loc>
+    <lastmod>2023-01-13T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://KasunMalwenna.github.io/portfolio/tags/computer-vision/</loc>
+    <lastmod>2023-01-13T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://KasunMalwenna.github.io/portfolio/tags/data-visualization/</loc>
-    <lastmod>2022-12-04T10:58:08-04:00</lastmod>
+    <lastmod>2023-01-13T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://KasunMalwenna.github.io/portfolio/</loc>
-    <lastmod>2022-12-04T10:58:08-04:00</lastmod>
+    <lastmod>2023-01-13T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://KasunMalwenna.github.io/portfolio/tags/image-recognition/</loc>
+    <lastmod>2023-01-13T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://KasunMalwenna.github.io/portfolio/tags/keras/</loc>
+    <lastmod>2023-01-13T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://KasunMalwenna.github.io/portfolio/tags/multi-class/</loc>
+    <lastmod>2023-01-13T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://KasunMalwenna.github.io/portfolio/tags/python/</loc>
+    <lastmod>2023-01-13T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://KasunMalwenna.github.io/portfolio/post/project-3/</loc>
+    <lastmod>2023-01-13T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://KasunMalwenna.github.io/portfolio/tags/</loc>
+    <lastmod>2023-01-13T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://KasunMalwenna.github.io/portfolio/tags/tensorflow/</loc>
+    <lastmod>2023-01-13T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://KasunMalwenna.github.io/portfolio/tags/classification/</loc>
     <lastmod>2022-12-04T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -32,17 +77,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://KasunMalwenna.github.io/portfolio/tags/python/</loc>
-    <lastmod>2022-12-04T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://KasunMalwenna.github.io/portfolio/tags/supervised-learning/</loc>
-    <lastmod>2022-12-04T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://KasunMalwenna.github.io/portfolio/tags/</loc>
     <lastmod>2022-12-04T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -72,22 +107,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://KasunMalwenna.github.io/portfolio/tags/keras/</loc>
-    <lastmod>2022-11-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://KasunMalwenna.github.io/portfolio/tags/neural-network/</loc>
     <lastmod>2022-11-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://KasunMalwenna.github.io/portfolio/tags/regression/</loc>
-    <lastmod>2022-11-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://KasunMalwenna.github.io/portfolio/tags/tensorflow/</loc>
     <lastmod>2022-11-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
