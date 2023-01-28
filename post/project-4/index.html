@@ -6,7 +6,7 @@
     
     <title>Sport Trading Card Market Analysis for ALT | Kasun Malwenna</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Industry Research Report">
+    <meta name="description" content="I took a closer look at the USA Sports trading cards market by studying recent eBay listings">
     <meta name="generator" content="Hugo 0.106.0">
     
     
@@ -30,19 +30,19 @@
     
     
     <meta property="og:title" content="Sport Trading Card Market Analysis for ALT" />
-<meta property="og:description" content="Industry Research Report" />
+<meta property="og:description" content="I took a closer look at the USA Sports trading cards market by studying recent eBay listings" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://KasunMalwenna.github.io/portfolio/post/project-4/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2023-01-14T10:58:08-04:00" />
 <meta property="article:modified_time" content="2023-01-14T10:58:08-04:00" /><meta property="og:site_name" content="Kasun Malwenna" />
 
 <meta itemprop="name" content="Sport Trading Card Market Analysis for ALT">
-<meta itemprop="description" content="Industry Research Report"><meta itemprop="datePublished" content="2023-01-14T10:58:08-04:00" />
+<meta itemprop="description" content="I took a closer look at the USA Sports trading cards market by studying recent eBay listings"><meta itemprop="datePublished" content="2023-01-14T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2023-01-14T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1270">
-<meta itemprop="keywords" content="EDA,matplotlib,seaborn,Python,Data Cleaning,Feature Engineering,Data visualization," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="wordCount" content="1276">
+<meta itemprop="keywords" content="EDA,matplotlib,seaborn,Python,Data Cleaning,Feature Engineering,Data visualization,Reasearch,Web Scraping," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Sport Trading Card Market Analysis for ALT"/>
-<meta name="twitter:description" content="Industry Research Report"/>
+<meta name="twitter:description" content="I took a closer look at the USA Sports trading cards market by studying recent eBay listings"/>
 
 	
   </head>
@@ -137,7 +137,7 @@
           <div class="f2 f1-l fw2 white-90 mb0 lh-title">Sport Trading Card Market Analysis for ALT</div>
           
             <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-              Industry Research Report
+              I took a closer look at the USA Sports trading cards market by studying recent eBay listings
             </div>
           
         
@@ -192,17 +192,20 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Visit the <a href="https://github.com/KasunMalwenna/Sport-Trading-Card-Market-Analysis-for-ALT">Project GitHub repository</a> for code and more information.</p>
-<figure><img src="https://KasunMalwenna.github.io/portfolio/images/Project4/1.jpg"/>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><figure><img src="https://KasunMalwenna.github.io/portfolio/images/Project4/1.jpg"/>
 </figure>
 
-<h1 id="introduction">Introduction</h1>
+<p>Sports trading cards can be considered an alternative investment opportunity as the market for these cards can be relatively stable (especially following the pandemic) and can offer a potential for high returns. The value of a card is often determined by its rarity, condition, and the popularity of the athlete featured on the card. Some high-value cards have sold for millions of dollars. However, it&rsquo;s important to note that the market for sports cards can be highly speculative and illiquid, and like any other investment, it carries risk. It&rsquo;s also essential to conduct research and due diligence before investing in sports cards, as well as to have a long-term horizon.</p>
+<h3 id="overview">Overview</h3>
 <p>This project is part of a collabarative tech sprint among Data science, UX design and Web Development students challenging to create digital solutions for one of <a href="https://brainstation.io/">BrainStation&rsquo;s</a> industry partners - <a href="https://www.alt.xyz/">ALT</a>(a leading sports trading card marketplace).</p>
-<p>Sports trading cards can be considered an alternative investment opportunity because the market for these cards can be relatively stable and can offer a potential for high returns. The value of a card is often determined by its rarity, condition, and the popularity of the athlete featured on the card. Some high-value cards have sold for millions of dollars. However, it&rsquo;s important to note that the market for sports cards can be highly speculative and illiquid, and like any other investment, it carries risk. It&rsquo;s also important to conduct research and due diligence before investing in sports cards, as well as to have a long-term horizon.</p>
+<p>Visit the <a href="https://github.com/KasunMalwenna/Sport-Trading-Card-Market-Analysis-for-ALT">Project GitHub repository</a> to view the full project.</p>
+<h3 id="why-ebay-usa">Why eBay USA?</h3>
 <p>The USA trading card market is arguably the most prominent and active market there is, and this project focuses on the largest lister in the USA region, eBay, to analyze and compile relevant insights and make recommendations for ALT to provide context and motivation for improvement and future development.</p>
 <h3 id="about-alt">About ALT</h3>
 <p>ALT is a sports trading card marketplace that allows users to buy, sell, and trade cards from various sports like football, basketball, baseball and hockey. It also offers a community for enthusiasts to connect and access historical card pricing and trends.</p>
+<blockquote>
 <h2 id="data-collection">Data Collection</h2>
+</blockquote>
 <p>Current PSA graded Sports Trading Card listings on eBay USA were collected using <a href="https://apify.com/dtrungtin/ebay-items-scraper">Apify eBay scrapper</a>. Apify is a web scraping and automation platform that serves as an unofficial eBay API to extract data from eBay. It allows us to specify the product category, keywords, and other parameters to search for, and then it will extract data such as product name, price, description, and image URLs from the search results. Data was collected on 10th December 2022 and represents the most up-to-date &ldquo;Buy now&rdquo; listings on eBay and was exported to multiple CSV files.</p>
 <pre tabindex="0"><code>| Variable name   | Description                                    |
 |-----------------|------------------------------------------------|
@@ -217,7 +220,9 @@
 | card_brand      | Name of the card manufacturer                  |
 | card_singed     | If the card is an autographed card             |
 </code></pre><p>The above data dictionary is not a representation of the initially scraped data but a representation of the data after data wrangling and feature engineering. Since there is an overwhelming number of lower-priced cards, only a limited number of cards below USD 100 were scraped while no limit was considered for higher priced cards.</p>
-<h1 id="exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</h1>
+<blockquote>
+<h2 id="exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</h2>
+</blockquote>
 <h4 id="price-analysis">Price Analysis</h4>
 <figure><img src="https://KasunMalwenna.github.io/portfolio/images/Project4/3.JPG"/>
 </figure>
@@ -261,12 +266,22 @@
 </figure>
 
 <p>Upper Deck is a great choice for anyone looking to invest in autographed cards; Topps, Panini, and Bowman may offer the most in terms of quantity on the eBay marketplace, but Upper Deck ranks among the top five for both quantity and price, boasting the highest average value for autographed cards.</p>
-<h1 id="recommendations">Recommendations</h1>
+<blockquote>
+<h2 id="key-recommendations">Key Recommendations</h2>
+</blockquote>
 <ul>
-<li>The U.S. market has a strong stake in the card trading industry, with its top 10 states being American. Therefore, ALT has potential to reap greater benefits from investments compared to the Canadian market.</li>
-<li>When it comes to Canada though, Ontario and Quebec are the major points of activity. For ALT to make a wider impact, they ought to consider clever marketing and promotions for targeting other regions in the country.</li>
-<li>ALT could also draw more attention to their platform by acquiring desirable cards from popular brands such as Topps, Panini and Bowman. Additionally, by providing attractive deals like a good return policy and faster shipping, ALT could eliminate hesitancy among buyers to make the purchase.</li>
-<li>For the avid collectors, Upper Deck is a household brand, possessing a remarkable and costly average card price. This could present an agreeable investment opportunity for ALT.</li>
+<li>
+<p>The U.S. market has a strong stake in the card trading industry, with its top 10 states being American. Therefore, ALT has potential to reap greater benefits from investments compared to the Canadian market.</p>
+</li>
+<li>
+<p>When it comes to Canada though, Ontario and Quebec are the major points of activity. For ALT to make a wider impact, they ought to consider clever marketing and promotions for targeting other regions in the country.</p>
+</li>
+<li>
+<p>ALT could also draw more attention to their platform by acquiring desirable cards from popular brands such as Topps, Panini and Bowman. For the avid collectors, Upper Deck is a household brand, possessing a remarkable and costly average card price. This could present an agreeable investment opportunity for ALT.</p>
+</li>
+<li>
+<p>By providing attractive deals like a good return policy and faster shipping, ALT could sway skeptical buyers to make the purchase.</p>
+</li>
 </ul>
 <ul class="pa0">
   
@@ -296,6 +311,14 @@
   
    <li class="list di">
      <a href="https://KasunMalwenna.github.io/portfolio/tags/data-visualization/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Data Visualization</a>
+   </li>
+  
+   <li class="list di">
+     <a href="https://KasunMalwenna.github.io/portfolio/tags/reasearch/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Reasearch</a>
+   </li>
+  
+   <li class="list di">
+     <a href="https://KasunMalwenna.github.io/portfolio/tags/web-scraping/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Web Scraping</a>
    </li>
   
 </ul>

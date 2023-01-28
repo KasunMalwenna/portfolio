@@ -6,7 +6,7 @@
     
     <title>Password Strength Classifier: Is it really safe? | Kasun Malwenna</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Determine the power of your passwords with remarkable accuracy using natural language processing.">
+    <meta name="description" content="Determine the power of your passwords with remarkable accuracy using Natural Language Processing.">
     <meta name="generator" content="Hugo 0.106.0">
     
     
@@ -30,19 +30,19 @@
     
     
     <meta property="og:title" content="Password Strength Classifier: Is it really safe?" />
-<meta property="og:description" content="Determine the power of your passwords with remarkable accuracy using natural language processing." />
+<meta property="og:description" content="Determine the power of your passwords with remarkable accuracy using Natural Language Processing." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://KasunMalwenna.github.io/portfolio/post/project-2/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-12-04T10:58:08-04:00" />
 <meta property="article:modified_time" content="2022-12-04T10:58:08-04:00" /><meta property="og:site_name" content="Kasun Malwenna" />
 
 <meta itemprop="name" content="Password Strength Classifier: Is it really safe?">
-<meta itemprop="description" content="Determine the power of your passwords with remarkable accuracy using natural language processing."><meta itemprop="datePublished" content="2022-12-04T10:58:08-04:00" />
+<meta itemprop="description" content="Determine the power of your passwords with remarkable accuracy using Natural Language Processing."><meta itemprop="datePublished" content="2022-12-04T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2022-12-04T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1232">
+<meta itemprop="wordCount" content="1237">
 <meta itemprop="keywords" content="Python,Classification,Data Visualization,Supervised Learning,Natural Language Processing,Multi Class," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Password Strength Classifier: Is it really safe?"/>
-<meta name="twitter:description" content="Determine the power of your passwords with remarkable accuracy using natural language processing."/>
+<meta name="twitter:description" content="Determine the power of your passwords with remarkable accuracy using Natural Language Processing."/>
 
 	
   </head>
@@ -137,7 +137,7 @@
           <div class="f2 f1-l fw2 white-90 mb0 lh-title">Password Strength Classifier: Is it really safe?</div>
           
             <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-              Determine the power of your passwords with remarkable accuracy using natural language processing.
+              Determine the power of your passwords with remarkable accuracy using Natural Language Processing.
             </div>
           
         
@@ -192,44 +192,51 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Visit the <a href="https://github.com/KasunMalwenna/Password-Strength-Classifier">Project GitHub repository</a> for code and more information.</p>
-<figure><img src="https://KasunMalwenna.github.io/portfolio/images/Project2/mourizal-zativa-_rSRv9T98G4-unsplash.jpg"/>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><figure><img src="https://KasunMalwenna.github.io/portfolio/images/Project2/mourizal-zativa-_rSRv9T98G4-unsplash.jpg"/>
 </figure>
 
 <p>Password strength measures how well a password can withstand being guessed or hacked. External attacks can come in the form of password cracking or brute-force attacks, which aim to gain unauthorized access to a computer system or network.</p>
 <p>The strength of a password is typically measured by its complexity, length, and unpredictability. Unfortunately, cybercrimes and data breaches have been increasing, and a big reason for this is that passwords are often compromised and weak.</p>
-<h1 id="objective">Objective</h1>
-<p>This project focuses on building a password strength classification model with high accuracy using Machine Learning. The model will output the strength of a password on a scale from 0 (lowest strength) to 2 (highest strength).</p>
-<h1 id="data">Data</h1>
+<p>Plese visit the <a href="https://github.com/KasunMalwenna/Password-Strength-Classifier">Project GitHub repository</a> to view the full project.</p>
+<h3 id="objective">Objective</h3>
+<p>This project focuses on building a password strength classification model with high accuracy using Supervised Machine Learning. The model will output the strength of a password on a scale from 0 (lowest strength) to 2 (highest strength).</p>
+<blockquote>
+<h2 id="data">Data</h2>
+</blockquote>
 <p>The dataset is downloadabale for free from <a href="https://www.kaggle.com/datasets/bhavikbb/password-strength-classifier-dataset">Kaggle</a>, and contains passwords from the 000webhost leak that is available online. The dataset has been pre-classified by Georgia Tech University&rsquo;s PARS tool, which rates passwords as weak, medium, or strong. There are 700k records in the dataset.</p>
 <p>Below is a view of the dataset.</p>
 <figure><img src="https://KasunMalwenna.github.io/portfolio/images/passworddata.JPG"/>
 </figure>
 
-<h2 id="cleaning">Cleaning</h2>
-<p>Missing values make the dataset incomplete, and this gives inaccurate results. Similarly, Duplicates can also skew the analysis. Therefore dataset was checked for any missing or duplicate values.
+<blockquote>
+<h2 id="data-wrangling">Data Wrangling</h2>
+</blockquote>
+<h3 id="cleaning">Cleaning</h3>
+<p>Missing values make the dataset incomplete, and this gives inaccurate results. Similarly, duplicates can also skew the analysis. Therefore dataset was checked for any missing or duplicate values.
 There was one missing value in <strong><code>password</code></strong> column and no duplicates.
 It is obvious that we cannot predict the strength of a password without having a password. Therefore, I directly dropped the missing observation.</p>
-<h2 id="dealing-with-class-imbalance">Dealing with Class Imbalance</h2>
+<h3 id="dealing-with-class-imbalance">Dealing with Class Imbalance</h3>
 <p>In order to return an unbiased classification, it is important to train data to be balanced prior to model training. Upon initial inspections, it was noticed that our dataset was highly biased towards the medium(1) strength class.</p>
 <p>The below graph shows the heavy imbalance of the dataset.
 <figure><img src="https://KasunMalwenna.github.io/portfolio/images/Project2/imbalance.JPG"/>
 </figure>
 </p>
-<p>We can either upsample the minority classes or downsample the majority classes to have an even and fair distribution. One can argue that downsampling is not the best option as it will remove information from the dataset. However, I downsampled the majority class using <a href="https://imbalanced-learn.org/stable/"><strong><code>imblearn</code></strong></a> python package  as that would leave me with fewer but considerably enough, and better observations for our analysis.</p>
+<p>We can either upsample the minority classes or downsample the majority classes to have an even and unbiased distribution. One can argue that downsampling is not the best option as it will remove information from the dataset. However, I downsampled the majority class using <a href="https://imbalanced-learn.org/stable/"><strong><code>imblearn</code></strong></a> python package  as that would leave me with fewer but considerably enough, and better observations for our analysis.</p>
 <p>This is what the balance distribution looks like after down-sampling.
 <figure><img src="https://KasunMalwenna.github.io/portfolio/images/Project2/balance.JPG"/>
 </figure>
 </p>
 <p>Dataset now has 255,975 rows and 2 columns.</p>
-<h2 id="preprocessing">Preprocessing</h2>
+<h3 id="preprocessing">Preprocessing</h3>
 <p>First, I converted the dataframe to an array, as it is much easier to work with.
-In order to apply ML algorithms, we need to tokenize the data first. The process of tokenization simply involves breaking down text data into simpler characters, called tokens. I created a custom function to break our password text down into word tokens, which were then used as input for our model. This introduced considerably high dimensionality to our model.
+In order to apply ML algorithms, we need to tokenize the data first. The process of tokenization simply involves breaking down text data into simpler characters, called tokens. I created a custom function to break our password text down into word tokens, which were then used as inputs for our model. This introduced considerably high dimensionality to our model.
 The dataset now has 255,975 rows and 144 columns.</p>
 <p>Machine learning models do not comprehend text. We, therefore, need to further convert the word tokens to numeric data. The <a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html"><strong><code>TfidfVectorizer</code></strong></a> package was used to achieve this by creating vectors based on the frequency of occurrence of each word token.</p>
-<h1 id="model-building">Model Building</h1>
-<h2 id="logistic-regression">Logistic Regression</h2>
-<p>After splitting the dataset into 80% train and 20% test sets, Fist model I tried was Logistic Regression, as it is always a good base performer to start with.
+<blockquote>
+<h2 id="model-development">Model Development</h2>
+</blockquote>
+<h3 id="logistic-regression-model">Logistic Regression Model</h3>
+<p>After splitting the dataset into 80% train and 20% test sets, Fist algorithm I tried was Logistic Regression, as it is always a good base performer to start with.
 An 80% accuracy score was observed for both train and test sets with no overfitting evidence. The model was further evaluated confusion matrix and classification report.</p>
 <p>A confusion matrix, also known as an error matrix, is a summarized table used to assess the performance of a classification model. The number of correct and incorrect predictions are summarized with count values and broken down by each class.</p>
 <p>The classification report records three important metrics to evaluate the classification models on.</p>
@@ -246,10 +253,10 @@ F1 Score: A weighted harmonic mean of precision and recall. The closer to 1, the
 <li>Recall: Out of all the passwords that were truly medium in strength, the model only predicted 67% correctly as a medium in strength.</li>
 <li>The F1 Score is 0.7, which isn’t very close to 1. It tells us that the model performs poorly in predicting the medium strength class.</li>
 </ul>
-<h2 id="random-forest-model">Random Forest Model</h2>
-<p>Second model i tried was Random Forest, a tree based classifier that naturally performs well.</p>
+<h3 id="random-forest-model">Random Forest Model</h3>
+<p>Second algorithm i tried was Random Forest, a tree based classifier that naturally performs well.</p>
 <p>The defautl model gave a 99.9% accuracy on the train set and 95.1% on the test set. Due to the discrepancy of the accuracy scores, I concluded that the model is overfitting to the train data. Hyperparameter optimization was performed using a Grid Search Crossvalidation to overcome this.</p>
-<p>It took 2 hours and 43 minutes to complete the grid search for our chosen hyperparameter ranges. Yet the overfitting is still present with a slight improvement in the test accuracy. Further improvement is possible throuch  searching for wider ranges and using other tuning methods, such as Random Search cross-validation or Bayesian optimization. However, that can be a computationally exhaustive task.</p>
+<p>It took 2 hours and 43 minutes to complete the grid search for our chosen hyperparameter ranges. Yet the overfitting was still present with a slight improvement in the test accuracy. Further improvement is possible throuch  searching for wider ranges and using other tuning methods, such as Random Search cross-validation or Bayesian optimization. However, that can be a computationally exhaustive task.</p>
 <p>The below graph shows the classification report and the confusion matrix for the Random Forest.</p>
 <figure><img src="https://KasunMalwenna.github.io/portfolio/images/Project2/rf.JPG"/>
 </figure>
@@ -260,16 +267,18 @@ F1 Score: A weighted harmonic mean of precision and recall. The closer to 1, the
 <li>Recall: Out of all the passwords that were truly medium in strength, the model only predicted 91% correctly as medium in strength.</li>
 <li>F1 Score is 0.93, which closer to 1 and therefor a good predictor.</li>
 </ul>
-<h2 id="further-evaluate-random-forest-using-the-receiver-operator-characteristic-roc-curve">Further Evaluate Random Forest using The Receiver Operator Characteristic (ROC) curve</h2>
+<h3 id="further-evaluated-random-forest-using-the-receiver-operator-characteristic-roc-curve">Further Evaluated Random Forest using The Receiver Operator Characteristic (ROC) curve</h3>
 <p>The ROC curve is an evaluation metric in sklearn library forclassification problems that plots the true positive rate against the false positive rate at various threshold values. The Area Under the Curve (AUC) is the measure of the ability of a classifier to distinguish between classes. The higher the AUC, the better the performance of the model at distinguishing between the positive and negative classes.</p>
 <p>The best model will never make a misclassification, so it will always have a true positive rate of 1.0 and a false positive rate of 0. This means that its ROC curve is a flat horizontal line at 1, and the area under this curve is 1.</p>
 <figure><img src="https://KasunMalwenna.github.io/portfolio/images/Project2/roc.JPG"/>
 </figure>
 
 <p>From the above graph, we have near-perfect AUC (area = 1) for all three classes. Therefore, our model is doing extremely well in distinguishing between positive and negative classes.</p>
-<h1 id="conclusion">Conclusion</h1>
+<blockquote>
+<h2 id="conclusion">Conclusion</h2>
+</blockquote>
 <p>We trained two password-strength classifier models using machine learning. Random Forest is capable of classifying password strength across all classes with a high f1-score. This model can now further be deployed and used as a real application. It can be used by social media companies and other web platforms to incorporate as a suggestive feature of password strength when signing up for new accounts. It can be developed as an auto password generator to generate stronger and more secure passwords. The public can also use it to check for various password combinations if deployed as a public web app.</p>
-<h1 id="future-improvement">Future improvement</h1>
+<h3 id="future-improvement">Future improvement</h3>
 <p>The project can be further improved by adding more observation and retraining on more advance ML and DL algorithms as well as fine-tuning the hyperparameters.</p>
 <ul class="pa0">
   

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>EDA on Kasun Malwenna</title>
-    <link>https://KasunMalwenna.github.io/portfolio/tags/eda/</link>
-    <description>Recent content in EDA on Kasun Malwenna</description>
+    <title>Web Scraping on Kasun Malwenna</title>
+    <link>https://KasunMalwenna.github.io/portfolio/tags/web-scraping/</link>
+    <description>Recent content in Web Scraping on Kasun Malwenna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Jan 2023 10:58:08 -0400</lastBuildDate><atom:link href="https://KasunMalwenna.github.io/portfolio/tags/eda/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Jan 2023 10:58:08 -0400</lastBuildDate><atom:link href="https://KasunMalwenna.github.io/portfolio/tags/web-scraping/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sport Trading Card Market Analysis for ALT</title>
       <link>https://KasunMalwenna.github.io/portfolio/post/project-4/</link>

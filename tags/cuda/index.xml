@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CNN on Kasun Malwenna</title>
-    <link>https://KasunMalwenna.github.io/portfolio/tags/cnn/</link>
-    <description>Recent content in CNN on Kasun Malwenna</description>
+    <title>CUDA on Kasun Malwenna</title>
+    <link>https://KasunMalwenna.github.io/portfolio/tags/cuda/</link>
+    <description>Recent content in CUDA on Kasun Malwenna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Jan 2023 10:58:08 -0400</lastBuildDate><atom:link href="https://KasunMalwenna.github.io/portfolio/tags/cnn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Jan 2023 10:58:08 -0400</lastBuildDate><atom:link href="https://KasunMalwenna.github.io/portfolio/tags/cuda/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recognize Trading Cards With AI: Industry Project for ALT</title>
       <link>https://KasunMalwenna.github.io/portfolio/post/project-3/</link>
