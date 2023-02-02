@@ -6,7 +6,17 @@
     <description>Recent content in Data Visualization on Kasun Malwenna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Jan 2023 10:58:08 -0400</lastBuildDate><atom:link href="https://KasunMalwenna.github.io/portfolio/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Feb 2023 10:58:08 -0400</lastBuildDate><atom:link href="https://KasunMalwenna.github.io/portfolio/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tableau Dashboard for COVID-19 Vaccination</title>
+      <link>https://KasunMalwenna.github.io/portfolio/post/project-5/</link>
+      <pubDate>Thu, 02 Feb 2023 10:58:08 -0400</pubDate>
+      
+      <guid>https://KasunMalwenna.github.io/portfolio/post/project-5/</guid>
+      <description>For this project, I made an interactive dashboard in Tableau to examine and show the most recent COVID-19 vaccination stats.
+The data is open to the public and recently obtained from ourworldindata.org and consists of the newest figures from different governments and health organizations all around the world. The per capita measurements were based on a UN study - the World Population Prospects. Income groups were based on the World Bank&amp;rsquo;s classification.</description>
+    </item>
+    
     <item>
       <title>Sport Trading Card Market Analysis for ALT</title>
       <link>https://KasunMalwenna.github.io/portfolio/post/project-4/</link>

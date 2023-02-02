@@ -2,12 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://KasunMalwenna.github.io/portfolio/tags/data-cleaning/</loc>
-    <lastmod>2023-01-14T10:58:08-04:00</lastmod>
+    <loc>https://KasunMalwenna.github.io/portfolio/tags/dashboard/</loc>
+    <lastmod>2023-02-02T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://KasunMalwenna.github.io/portfolio/tags/data-visualization/</loc>
+    <lastmod>2023-02-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://KasunMalwenna.github.io/portfolio/</loc>
+    <lastmod>2023-02-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://KasunMalwenna.github.io/portfolio/tags/tableau/</loc>
+    <lastmod>2023-02-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://KasunMalwenna.github.io/portfolio/post/project-5/</loc>
+    <lastmod>2023-02-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://KasunMalwenna.github.io/portfolio/tags/</loc>
+    <lastmod>2023-02-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://KasunMalwenna.github.io/portfolio/tags/data-cleaning/</loc>
     <lastmod>2023-01-14T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -18,11 +43,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://KasunMalwenna.github.io/portfolio/tags/feature-engineering/</loc>
-    <lastmod>2023-01-14T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://KasunMalwenna.github.io/portfolio/</loc>
     <lastmod>2023-01-14T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -48,11 +68,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://KasunMalwenna.github.io/portfolio/post/project-4/</loc>
-    <lastmod>2023-01-14T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://KasunMalwenna.github.io/portfolio/tags/</loc>
     <lastmod>2023-01-14T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
